@@ -1,0 +1,66 @@
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: figtree;
+    font-weight: 600, 800;
+    display: flex;
+    flex-direction: column;
+}
+
+h6 {
+    background-color: hsl(47, 88%, 63%);
+    text-align: justify;
+    width:max-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2px;
+    margin-left: 1rem;
+}
+
+h3{
+    text-align: justify;
+    margin-left: 1rem;
+}
+
+h1{
+    text-align: justify;
+    margin-left: 1rem;
+    font-style:inherit;
+}
+
+p{
+    text-align: justify;
+    margin-left: 1rem;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    width:25%;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+/*** This is for border styling and width ***/
+    border-style: solid;
+    border-right-width: 0.5rem;
+    border-bottom-width: 0.5rem;
+    border-top-width: 0.1rem; border-left-width: 0.1rem;
+/* Border radius */
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+/* Spacing for content */
+    padding: 1rem;
+}
+
+.img_main{
+    border-radius:0.5rem ;
+    padding-top: 1rem;
+}
