@@ -2,10 +2,11 @@
 body{
     background-color: hsl(47, 88%, 63%);
     font-family: figtree;
-    font-weight: 600, 800;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h4 {
@@ -16,6 +17,7 @@ h4 {
     padding-right: 1rem;
     border-radius: 2px;
     margin-left: 1rem;
+    font-weight: 800;
 }
 
 h3{
@@ -32,13 +34,15 @@ h1{
 p{
     text-align: justify;
     margin-left: 1rem;
+    font-weight: 600, 800;
 }
 
 .attribution { 
+    margin-top: 1rem;
     font-size: 11px;
-    text-align: center; 
+    text-align: justify;
     position: absolute;
-    top: 83%;
+    top: 85%;
     left: 50%;
     transform:translate(-50%,-50%);
 }
@@ -53,14 +57,14 @@ p{
     left: 50%;
     transform:translate(-50%,-50%);
 /*** Positioning and width of the content inside the container ***/
-    width: 20%;
+    width: 24rem;
     text-align: center;
     background-color: hsl(0, 0%, 100%);
     margin: auto;
 /*** This is for border styling and width ***/
     border-style: solid;
-    border-right-width: 0.5rem;
-    border-bottom-width: 0.5rem;
+    border-right-width: 0.8rem;
+    border-bottom-width: 0.8rem;
     border-top-width: 0.1rem; border-left-width: 0.1rem;
 /* Border radius */
     border-top-right-radius: 1.5rem;
@@ -88,4 +92,8 @@ h6{
     display: inline-flex;
     float: left;
     margin-left: 1rem;
+}
+
+h1:hover{
+    background: hsl(47, 88%, 63%);
 }
