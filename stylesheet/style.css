@@ -6,7 +6,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
+
+
 }
 
 h4 {
@@ -33,7 +34,6 @@ h1{
 p{
     text-align: justify;
     margin-left: 1rem;
-    font-weight: 600, 800;
 }
 
 .attribution { 
@@ -41,9 +41,9 @@ p{
     font-size: 11px;
     text-align: justify;
     position: absolute;
-    top: 85%;
+    bottom: 5%;
     left: 50%;
-    transform:translate(-50%,-50%);
+    transform:translate(-50%);
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
@@ -60,11 +60,9 @@ p{
     text-align: center;
     background-color: hsl(0, 0%, 100%);
     margin: auto;
-/*** This is for border styling and width ***/
+/*** This is for border styling and width     ***/
     border-style: solid;
-    border-right-width: 0.8rem;
-    border-bottom-width: 0.8rem;
-    border-top-width: 0.1rem; border-left-width: 0.1rem;
+    border-width: 0.1rem 0.8rem 0.8rem 0.1rem;
 /* Border radius */
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
@@ -82,14 +80,18 @@ p{
 
 .avatar{
     max-height: 100%;
-    max-width: 100%;
+    max-width: 10%;
     float: left;
     margin-left: 1rem;
 }
 
-h6{
-    display: inline-flex;
-    float: left;
+.image{
+    display: flex;
+    align-items: center;
+}
+
+.image h6{
+    font-weight: 800;
     margin-left: 1rem;
 }
 
