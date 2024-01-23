@@ -28,7 +28,6 @@ h3{
 h1{
     text-align: justify;
     margin-left: 1rem;
-    font-style:inherit;
 }
 
 p{
@@ -95,5 +94,6 @@ h6{
 }
 
 h1:hover{
-    background: hsl(47, 88%, 63%);
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
